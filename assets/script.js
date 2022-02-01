@@ -65,15 +65,15 @@ ccMinusBtn.addEventListener('click', function() {
 })
 
 //Sugar Sprinkle Btn
-ccPlusBtn.addEventListener('click', function() {
-    qtycc = cc++
-    updateQtycc(qtycc)
+sugarPlusBtn.addEventListener('click', function() {
+    qtysugar = sugar++
+    updateQtysugar(qtysugar)
 })
-ccMinusBtn.addEventListener('click', function() {
-    if (cc >= 0) {
-        qtycc = cc--
+sugarMinusBtn.addEventListener('click', function() {
+    if (sugar >= 0) {
+        qtycc = sugar--
     }
-    updateQtycc(qtycc)
+    updateQtycc(qtysugar)
 })
 
 // TODO: Hook up event listeners for the rest of the buttons
