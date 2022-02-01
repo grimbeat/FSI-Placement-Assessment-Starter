@@ -71,9 +71,9 @@ sugarPlusBtn.addEventListener('click', function() {
 })
 sugarMinusBtn.addEventListener('click', function() {
     if (sugar >= 0) {
-        qtycc = sugar--
+        qtysugar = sugar--
     }
-    updateQtycc(qtysugar)
+    updateQtysugar(qtysugar)
 })
 
 // TODO: Hook up event listeners for the rest of the buttons
